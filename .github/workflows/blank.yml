@@ -15,7 +15,7 @@ jobs:
         id: getsecret
         uses: Andrews-McMeel-Universal/get-envs@v1
         with:
-          environmentKeyVault: kvj-kkimura-20241007
+          environmentKeyVault: kv-kkimura-20241007
           azurecredentials: ${{ secrets.AZURE_CREDENTIALS }}
 
       # Runs a set of commands using the runners shell
