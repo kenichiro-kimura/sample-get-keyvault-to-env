@@ -25,4 +25,4 @@ jobs:
           cat .env
         env:
            outputEnv: ${{ steps.get-envs.outputs.environmentVariables }}
-           buildArguments: ${{ steps.get-envs.outputs.buildArguments }}
+           # buildArguments: ${{ steps.get-envs.outputs.buildArguments }}
