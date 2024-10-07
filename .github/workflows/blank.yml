@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: get keyvault to .env
-        id: get-env
+        id: get-envs
         uses: Andrews-McMeel-Universal/get-envs@v1
         with:
           environmentKeyVault: kv-kkimura-20241007
